@@ -1,0 +1,700 @@
+body {
+
+    font-family: sans-serif;
+    background-color: rgb(231, 231, 231);
+
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 14px;
+
+    }
+
+
+
+
+
+
+}
+
+/* Stili për telefona */
+@media screen and (max-width: 600px) {
+
+
+    .together {
+        display: grid;
+
+        /* ose çfarëdo stili që dëshironi për telefona */
+    }
+
+
+}
+
+/* Stili për telefona */
+@media screen and (max-width: 823px) {
+
+
+
+    .together {
+        display: grid;
+
+        /* ose çfarëdo stili që dëshironi për telefona */
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 16px;
+        /* Increase the font size for larger screens */
+    }
+
+
+
+}
+
+@media screen and (min-width: 812px) {
+    body {
+        font-size: 18px;
+        /* Increase the font size for larger screens */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 18px;
+        /* Increase the font size for larger screens */
+    }
+}
+
+
+p::selection {
+    color: snow;
+    background-color: red;
+}
+
+a::selection {
+
+    color: snow;
+    background-color: red;
+}
+
+h2::selection {
+
+    color: snow;
+    background-color: red;
+}
+
+
+
+
+
+
+
+.login-box {
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 25px 25px 19px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    background-color: #4f4b4b;
+
+
+
+}
+
+
+
+.login-box img {
+
+    margin: 0 0 20px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+.user-box input {
+
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #4f4b4b;
+    border-radius: 20px;
+    outline: none;
+    width: 260px;
+
+    padding: 10px;
+
+}
+
+
+
+button {
+
+    width: 280px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    margin: 5px auto;
+
+}
+
+button:hover {
+    background-color: rgb(189, 189, 189);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+
+.linky {
+    margin-top: 20px;
+
+}
+
+.linky a {
+    color: #fff;
+    text-decoration: none;
+
+
+
+}
+
+.linky a:hover {
+    color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+.sign-up {
+    color: #fff;
+
+}
+
+
+
+.sign-up a {
+    color: rgb(228, 72, 72);
+    text-decoration: none;
+}
+
+
+.sign-up a:hover {
+    color: skyblue
+}
+
+hr {
+    margin-top: 25px;
+    width: 280px;
+}
+
+
+summary {
+    color: white;
+}
+
+details a {
+    color: snow;
+}
+
+details a:hover {
+    color: red;
+}
+
+
+
+.com-o {
+    margin: 0 auto;
+    width: 72%;
+
+}
+
+
+
+.divation-com-o {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.tabela-com-o {
+    margin: 0 auto;
+    width: 85%;
+}
+
+
+.title-diva input {
+    padding: 10px;
+    width: 340px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.together {
+    margin-top: 50px;
+
+}
+
+.position-1 {
+    display: grid;
+    width: 54%;
+    float: left;
+}
+
+
+.position-2 {
+    display: grid;
+    width: 45%;
+    float: right;
+
+}
+
+
+.headd-textarea {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+
+}
+
+.headd-textarea button {
+
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid gray;
+
+}
+
+.headd-textarea a {
+    text-decoration: none;
+}
+
+
+
+.headd {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.headd button {
+
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid gray;
+
+}
+
+.headd a {
+    text-decoration: none;
+}
+
+.head h2 {
+    margin-bottom: 0;
+}
+
+
+.looog a {
+    text-decoration: none;
+}
+
+
+
+
+.bashk {
+    align-items: center;
+}
+
+
+
+
+td input {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    width: 10%;
+}
+
+
+
+.user_info {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.user_info input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 340px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.user_info label {
+    float: left;
+}
+
+
+.info_button_new_user {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.info_button_new_user button {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid gray;
+    display: block;
+    margin: 5px auto;
+    color: red;
+
+    padding: 8px;
+
+
+}
+
+
+
+
+form {
+    text-align: center;
+
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+
+}
+
+
+
+
+
+.search input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 340px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 16px;
+
+}
+
+.title-head {
+    text-align: start;
+    margin-left: 20px;
+}
+
+
+.divation-nu {
+    /* width: 54%;
+  float: left; */
+
+    display: flex;
+    justify-content: space-evenly;
+    /* display: grid;
+
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 75px 75px;
+  justify-content: center; */
+
+
+
+}
+
+
+
+.divation-no {
+
+    /* width: 45%;
+  float: right; */
+    display: flex;
+    justify-content: space-evenly;
+
+    /* display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 75px 75px; */
+
+
+
+
+}
+
+#title-date input {
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    width: 20%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+
+#divation-number input {
+
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-size: 16px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.fa-head {
+    overflow: hidden;
+
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+.divation_number_class {
+    background-color: rgb(239, 239, 239);
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    margin: 8px;
+    width: 100%;
+
+    height: 110px;
+
+}
+
+.divation-category {
+    background-color: rgb(239, 239, 239);
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    margin: 8px;
+    width: 100%;
+
+    height: 110px;
+}
+
+.divation_serialn_internal {
+    background-color: rgb(239, 239, 239);
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 2px solid gray;
+
+    margin: 8px;
+    width: 100%;
+    height: 110px;
+}
+
+
+.divation_column_make {
+    background-color: rgb(239, 239, 239);
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 2px solid gray;
+
+    margin: 8px;
+    width: 100%;
+    height: 110px;
+}
+
+.headd img {
+    width: 100px;
+    height: 100px;
+
+    margin: 10px 10px 0 20px;
+}
+
+
+
+
+.divation_number_class_responsible_person {
+    background-color: snow;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    margin: 8px;
+    box-shadow: 10px 10px 10px 5px gray;
+}
+
+.divation_number_class_responsible_person input {
+    width: 30%;
+    padding: 7px;
+}
+
+
+#id_button {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(23, 90, 214);
+    color: white;
+    float: right;
+
+
+}
+
+/* #id_button::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in;
+}
+
+#id_button:hover::after {
+  transform: scaleX(1);
+} */
+
+
+.info_button_add {
+
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(239, 239, 239);
+    padding: 14px 10px;
+    border-radius: 7px;
+    width: 97%;
+    margin: 8px;
+    border: 2px solid grey;
+    overflow-x: scroll;
+
+
+
+
+
+}
+
+
+.info_button_add input {
+    padding: 5px;
+    background-color: white;
+
+
+
+
+}
+
+.label {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+    background-color: rgb(224, 224, 224);
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.table-form-1 {
+    margin: 0 auto;
+    width: 52%;
+    float: left;
+
+
+
+}
+
+.table-form-1 label {
+    display: grid;
+    padding: 20px;
+    width: 80%;
+    overflow: hidden;
+
+
+
+}
+
+.table-form-1 input {
+    padding: 10px;
+    font-size: 16px;
+
+
+
+}
+
+
+.table-form-2 {
+    margin: 0 auto;
+    width: 47%;
+    float: right;
+
+}
+
+.table-form-2 label {
+    display: grid;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+.table-form-2 input {
+    padding: 10px;
+    font-size: 16px;
+
+}
